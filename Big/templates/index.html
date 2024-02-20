@@ -1,0 +1,183 @@
+{% include 'base.html' %}
+{% load static %}
+
+
+
+<body>
+
+  <!---navbar-->
+  
+{% include 'nav.html' %}
+
+  <!---home-->
+  <section id="home">
+    <h1 class="text-center">CRICKET BAT</h1>
+    <p>It is a piece of equipment used by batter </p>
+    <div class="input-group m-4">
+      <input type="text" class="form-control" placeholder="Enter Your Bat Name">
+      <button class="btn signin">Submit</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12" style="padding: 15px;">
+          <img src="{% static 'asset/img/aboutimage2.jpg' %}" style="height: 90%; width: 100%; margin:15px aut0; border-radius: 20px; "class="img-fluid">
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-12 p-lg-1 p-2 ">
+          <h1>ABOUT</h1>
+          <p>A cricket bat is a specialised piece of equipment used by batters in the sport of cricket to hit the ball,
+            typically consisting of a cane handle attached to a flat-fronted willow-wood blade.
+            It may also be used by a batter who is making batter's ground to avoid a run out, by holding the bat and
+            touching the ground with it. The length of the bat may be no more than 38 inches (96.5 cm) and the width no
+            more than 4.25 inches (10.8 cm).
+            Its use is first mentioned in 1624. Since 1979, a law change has provided that cricket bats can only be made
+            from wood.
+            The blade of a cricket bat is a wooden block that is generally flat on the striking face and with a ridge on
+            the reverse (back) which concentrates wood in the middle where the ball is generally hit
+            The world best bats using players like virat(MRF),rohit(CEAT). The bat is very important for the playerrs
+            A cricket bat is a specialised piece of equipment used by batsmen in the sport of cricket to hit the ball,
+             typically consisting of a cane handle attached to a flat-fronted willow-wood blade. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--product-->
+
+  <section id="product">
+    <div class="container m-5">
+      <h1 class="text-center my-5">OUR PRODUCTS</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="{% static 'asset/img/mrfbat.jpg' %}" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">MRF Bat-$150</h5>
+              <a href="#" class="btn signin">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="{% static 'asset/img/ceatbat.jpg' %}" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">CEAT Bat-$120</h5>
+              <a href="#" class="btn signin">BUY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card">
+            <img src="{% static 'asset/img/nikebat.jpg' %}" class="card-img-top">
+            <div class="card-body text-center">
+              <h5 class="card-title">NIKE Bat-$120</h5>
+              <a href="#" class="btn signin">BUY</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row"> -->
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="{% static 'asset/img/nbbat.jpg' %}" class="card-img-top">
+              <div class="card-body text-center">
+                <h5 class="card-title">NB Bat-$110</h5>
+                <a href="#" class="btn signin">BUY</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="{% static 'asset/img/gmbat.jpg' %}" class="card-img-top">
+              <div class="card-body text-center">
+                <h5 class="card-title">GM Bat-$90</h5>
+                <a href="#" class="btn signin">BUY</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12">
+            <div class="card">
+              <img src="{% static 'asset/img/dscbat.jpg' %}" class="card-img-top">
+              <div class="card-body text-center">
+                <h5 class="card-title">DSC Bat-$120</h5>
+                <a href="#" class="btn signin">BUY</a>
+              </div>
+            </div>
+          </div>
+          
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="{% static 'asset/img/sgbat.jpg' %}" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">SG Bat-$60</h5>
+                  <a href="#" class="btn signin">BUY</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="{% static 'asset/img/cwbat.jpg' %}" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">CW Bat-$140</h5>
+                  <a href="#" class="btn signin">BUY</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="card">
+                <img src="{% static 'asset/img/ssbat.jpg' %}" class="card-img-top">
+                <div class="card-body text-center">
+                  <h5 class="card-title">SS Bat-$80</h5>
+                  <a href="#" class="btn signin">BUY</a>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+</section>
+<section id="contact">
+  <div class="container box">
+    <div class="row">
+       <div class="col-lg-6 col-md-6 col-12">
+        <img src="{% static 'asset/img/contactimage.webp' %}" class="img-fluid">
+
+       </div>
+      
+       <div class="col-lg-6 col-md-6 col-12">
+        <h1>CONTACT US</h1>
+        <form class="mb-3" method="post">
+          {% csrf_token %}
+          <input type="text" class="form-control"
+           placeholder="Enter your Bat Name" name="name">
+           <input type="text" class="form-control"
+           placeholder="Enter Your Email" name="email">
+           <textarea class="form-control"
+           placeholder="Enter Your Messge" name="message"></textarea>
+           <button type="submit" class="btn signin">Send Message</button>
+
+        </form>
+       </div>
+    </div>   
+
+  </div>
+
+
+</section>
+
+
+
+
+<footer>This Website all information about Bats</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
